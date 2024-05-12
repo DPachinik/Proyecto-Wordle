@@ -1,77 +1,193 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url(https://lh3.googleusercontent.com/pw/AP1GczO6xHWR_ZSTZ9bywjkQBjcgpYA5i1RUImBfb96HZpQx0CJa6HdlK25kfu7GBDpX-BwWNeQ7mQPiY0zs8Qwx37wDQ6exhPT7DLUf_8wDRrsAv8fBn5Ww0gvqltS6hLvCWQPx9yj9w3mtlPNxWLpWubhvPN60_7W1fbKaSstlu9mLC1LXlZqTdOdsWBcoJ1oKyGfMHeCpVmIwszRjC0YIbQceFRO3kjDybIwvTDWSAokjwiD-XZMWxmEtFVmFGervsNmX-dWlYllxw9XO36yL-30ywbsVW8le9AmOy50DYlJHx-JGnr7WemGOCS52tYrzG9h1WE__k_vheT1lHrNaNfiInMc4rGoXvjzEtEX35rlffzQZM_13319sZL1E_dmUMhkyjcGJxGqTU5WNUcgt6IU_4vLt70g12F44hPMQBAmf-ttiZiBdTdY6L2lqiJhWXMcoCBFW5Tayt2lnLe1jvWqRosm6Kx_goeDZXKYXx0Ayxp41UMZasRPUzrMZIu7CR7Kyahh8EXk6ldpPuBk6axclj4UgUukObDDZ7iOXGDdUW8oLKcPYnq5ND25tWRuV7AxqCM98DO371rSaboqG4d7XqEB40Zv7ens21YBM_sKkh1izrWUyYFfJ7CXijxMVGeKHT7WUWzNXrXQp3R3lKd2dGPbP4z-fljEOJrLaGpxg2Xs8WMGjLkakoErtBWGcOT_rcUxV-SZqE2_iXO0aoKp7e9DhjtRZRFPNKm3pjFZJ6aTJjhd5KdAz0EJ_ranC26LjmO9bh5VevAY7gsmaDXDsLyiSl21pjy0iJhP9rkNfBC10nWaahi8cFUbPm5b6jCdHPNe6Tg43uVPXXlZcGaJ3hNOr0096yVpUcFt9KU5i3SWiLUv4jx0vzJ9Pr_Oil5Oo7OWXhZ2E2DtTKIS-gi4J=w341-h607-s-no-gm?authuser=0);
+
 body{
-  background-image:url(https://png.pngtree.com/background/20230401/original/pngtree-planet-universe-illustration-background-picture-image_2251415.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczPs2sHjOK3jQWkZZ13Q2WpXSHaACESMQ7jEb8HC8kngp1e4c_lOLn5BVE7z8PMEFOG2JL2TRk03mPUQ2ryGO94I_fdE-Gi4nLH_Xp3LkpRutF1fUMXSfT1XrgZMA0kPjspPmP_bXbuEkxHMu9rZHxw5EhHU5lES8fwvDrQ7W4lTuBNfgVCNbyfdp3rZY1Ihn-oWAl4FmbHP_mwlxJNoXtYDzh9tC9mTC8xP42jyPjrPfXV3RnZIlEcA_0EZVY59wzLKf4zs9Gl7fMbw_qnoJobrCuhq3pTydfxNgFC58TjamC7vAzg7VOgc4xMBUJrLeUbOcfg1OqdcMq24pQl6c6Envo4WNnoUdmngxmhiWS_tUxqA8QfkV_aQIpMxipFSHsq9RMsmgcBtddkyG0af-Y_SUeympEW5FPj326-9aeAGPro2_yNc9rbcGKJd8alBRC-Mu6ncwUSX3LJ2_MlNfBsUxh_KCgylwccqZnPrpUq8OM5p2LWpE4kcMwkpTT2jnSheLoz6Rq7JKU2uvL8Fqr7LplYY9qfT0ukLnU_Zgl9H3kiVQSaL7C7mNyWB2GJqxhG1MU1aiR2aAiI9fU3niSBEmisI_iWc1Yj-NkBH02Hj4pXFTFRUNuo-j_OaPY1VOpCH0tdsoggp4o1Nlc-atMgAfEW0E1AQnE-rzfumnlcuyKwi2bzWKOT89NZ4OhyNfCeDh-EMK_tIYsP3gYq4wDGbKwCq5cB_W78aB5ler_0sBJQUEubg-S1eBuTefUxf22oGAw2lL1TQqznMK3J_RO9Dwnutsvyil8uFxAxAKwgoUjLvjcgClrwDxuHXQ7IHcXZP-wps03J0Wpxx81E_B0uVSlp5ySWBZpm3IcQSPYeYOdXGlKD0J1PgoAxGi3rzAklZsOPTT_B3ZXIB20GuCCxY=w341-h607-s-no-gm?authuser=0) ;
+    background-size:auto;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-     
-  title {
-    text-align: center;
-    margin-top: 50px;
-    color: #ffffff
-  }
-  h1{
-    color: rgb(255, 255, 255);
-  }
-     
-  #guess-input {
-    display: block;
-    margin: 0 auto 20px;
-    padding: 10px;
-    font-size: 18px;
-    width: 250px;
-    border: 1px solid #ccc;
-  }
-     
-  #guess-button {
-    display: block;
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+span{
+    color:#000000;
+}
+h1{
+    display: flex;
     margin: 0 auto;
-    padding: 10px 20px;
-    font-size: 18px;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-  }
-     
-  button:active {
-      transform: scale(0.95);
-  }
-     
-  .letter {
-      border: 1px solid rgba(255, 255, 255, );
-      padding: 3px;
-      margin: 3px;
-      min-width: 20px;
-      text-align: center;
-      display: inline-block
-  }
-     
-  .row{
-      margin-bottom: 10px;
-  }
-     
-  .input-area{
-      margin: 30px;
-  }
- 
-  #Cuerpo{
-    background:rgba(76, 74, 192, 0.651) ;
-    width: 400px;
-    height: 600px;
     text-align: center;
-    border-radius: 10px;
-    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
+}
+.letra-amarillo {
+    color: #c79c2e;
+}
+
+.letra-verde {
+    color: #51b36e;
+}
+
+.letra-rojo {
+    color: #943e3c;
+}
+
+/*ESTILOS DEL CONTENEDOR DEL CUERPO*/
+
+.tile-container{
+color: aliceblue;    
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.filas{
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    min-width: 250px;
+}
+.SPAN{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.582);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    border: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#guess-input{
+    border-radius: 5px;
+    background-color: rgba(50, 121, 103, 0.767);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    text-align:center;
+}
+input::placeholder {
+    color: #ffffff;
+}
+.keybord-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    gap: 10px;
+}
+.Correcto{
+    background-color: #51b36e;
+    animation-name: expansion;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: 1;
+}
+.Pertenece{
+    background-color: #c79c2e;
+    animation-name: expansion;
+    animation-duration: 1s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: 1;
+}
+.Error{
+    background-color: #943e3c;
+    animation-name: expansion;
+    animation-duration: 0.5s; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: 1;
+}
+@keyframes expansion {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+h2{
+    color:rgb(252, 0, 189);
+}
+h3{
+    color:rgb(255, 0, 0);
+}
+
+#mensajeEmergente {
+    color: #ffffff;
+    display: flex;
+    display: none;
     position: absolute;
-    inset: 0;
-    margin: auto;
+    background-color: #00000077;
+    border: 1px solid #000000e8;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    font-size: 12px;
 }
-#cabeza{
-
-    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
-    width: 100%;
-    height: 40%;
-    float: left;
+.reglas{
+    text-align:left;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5px;
+}
+.negrita{
+    color: #58c1c5;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    
+}
+#mensajeEmergente li{
+    text-align: left;
+    align-items: left;
+    padding-left: 10px;
+    list-style-type: none
+}
+@keyframes heartBeat {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.1);
+    }
+    20% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.1);
+    }
+    40% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
+.animate__heartBeat {
+    animation-name: heartBeat;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}

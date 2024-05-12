@@ -1,21 +1,100 @@
 <!DOCTYPE html>
- <html>
-   <head>
-     <title>Wordle PPY</title>
- 		<link rel="stylesheet" href="style.css">
-     <script src="script.js" defer></script>
-   </head>
-   <body>
-    <div id="Cuerpo">
-      <div id="cabeza">
-        <h1>Wordle PPY</h1>
-        <input type="text" id="guess-input">
-        <button id="guess-button">Intentar</button>
-      </div>
-      <div id="contenedor">
-        <div id="grid"></div>
-        <p id="guesses">
-      </div>
-    </div>
-   </body>
- </html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="wscript.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>WORDLE PY</title>
+</head>
+<body>
+    <section class="container">
+        <section class="title-container">
+            <button>
+                <a id="recarga"href="#">
+                    <i class="fas fa-sync-alt"></i>
+                </a>
+            </button>
+            <h1><span>W</span>
+                <span class="letra-rojo">O</span>
+                <span>R</span>
+                <span class="letra-verde">D</span>
+                <span>L</span>
+                <span class="letra-amarillo">E</span>
+                <span>-</span>
+                <span class="letra-rojo">P</span>
+                <span>Y</span>
+            </h1>
+            <button id="informacion">
+            <div id="mensajeEmergente">
+                <ul>
+                    <ol class="reglas"><span class="negrita" >¡APRENDE A JUGAR!</span><br>
+                        Ingresas una palabra de 5 letras en el campo proporcionado y el juego te dará pistas sobre las letras correctas:<br>
+                    </ol>
+                    <li>    =>Una letra correcta y en la posición correcta se marcará en <span class="letra-verde">verde</span></li>
+                    <li>    =>Una letra correcta pero en la posición incorrecta se marcará en <span class="letra-amarillo">amarillo</span></li>
+                    <li>    =>Una letra que no está en la palabra objetivo se marcará en <span class="letra-rojo">rojo</span></li>
+                    <ol class="reglas">Basándote en estas pistas, intenta adivinar la palabra correcta...ah y no te olvides,sólo tienes 6   oportunidades!<br>
+                        <span class="negrita" >¡DIVIERTETE!</span></p>
+                    </ol>
+                </ul>
+            </div>
+                <i class="fas fa-info-circle"></i> 
+            </button>
+        </section>
+        <section class="tile-container">
+            <div class="filas">
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+            </div>
+            <div class="filas">
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+            </div>
+            <div class="filas">
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+            </div>
+            <div class="filas">
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+            </div>
+            <div class="filas">
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+            </div>
+            <div class="filas">
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+                <span class="SPAN"></span>
+            </div>
+        </section>
+        <section class="keybord-container">
+            <input type="text" id="guess-input" placeholder="Ingrese una palabra" maxlength="5">
+            <button id="guess-button">JUGAR</button>
+            <h2 class="animate__confeti"></h2>
+            <h3 class="animate__heartBeat"></h3>
+
+
+        </section>
+    </section>    
+</body>
+</html>
